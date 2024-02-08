@@ -1,3 +1,7 @@
+All Credits for this cheat goes to : arturzxc, Azreol, duckman6969, ShooK_1 (the red team leader), GPT-4, EAC4LINUX)
+------------------------------------------------------------------------------------------------------------------------------------
+
+
 ## Intall build-essential (Mandatory. You only need to do this once) !!!
 ```
 sudo apt-get install build-essential
