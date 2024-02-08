@@ -16,12 +16,12 @@ sudo apt-get install libxtst-dev
 
 ### 1. Download:
 ```
-git clone https://github.com/needitem/nika-fixed.git
+git clone https://github.com/alibi08/nika-up-to-date.git
 ```
 
 ### 2. Get inside the folder
 ```
-cd nika-reloaded
+cd nika-up-to-date
 ```
 
 ### 3. Compile the program:
@@ -37,23 +37,4 @@ Open steam and start apex and wait for it to fully start
 ### 5. Run the cheat
 ```
 sudo ./a.out in your linux terminal
-```
-
-## Credits: (arturzxc, Azreol, duckman6969, ShooK_1 (the red team leader), GPT-4, EAC4LINUX)
-```
-Grinder
-+
-Xap-client
-+
-FixSkillIssue
-+
-GPT-4 
-............
-VVVVVVVVVVV
-Nika by Savage
-------------
-Nika Disappears (So does Savage)
----------------
-vvvvvvvvvvvvvvv
-NIKA-RELOADED is born...as little wattson would say, "PRED 4 ALL!!!"
 
