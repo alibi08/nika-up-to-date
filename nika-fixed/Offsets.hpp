@@ -12,14 +12,14 @@ constexpr long OFFSET_GRAPPLEATTACHED = 0x0048;		      //
     constexpr long OFF_ENTITY_LIST = 0x1db73e8;                   //[Miscellaneous]->cl_entitylist
         
     // Buttons
-    constexpr long OFF_IN_ATTACK = 0x073ce9a0;                    //[Buttons]->in_attack
-    constexpr long OFF_IN_JUMP = 0x073ceaa0;                      //[Buttons]->in_jump
-    constexpr long OFF_IN_DUCK = 0x073ceba0;                      //[Buttons]->in_duck
-    constexpr long OFFSET_IN_FORWARD = 0x073ce8f0;                   //[Buttons]->in_forward
-    constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2ac0;             //[Buttons]->m_traversalStartTime
-    constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2abc;               //[Buttons]->m_traversalProgress
-    constexpr long OFFSET_WALL_RUN_START_TIME = 0x3524;              //[Buttons]->m_wallRunStartTime
-    constexpr long OOFFSET_WALL_RUN_CLEAR_TIME = 0x3528;              //[Buttons]->m_wallRunClearTime
+    constexpr long OFF_IN_ATTACK = 0x073e0bd8;                    //[Buttons]->in_attack
+    constexpr long OFF_IN_JUMP = 0x073e0cf0;                      //[Buttons]->in_jump
+    constexpr long OFF_IN_DUCK = 0x073e0dd8;                      //[Buttons]->in_duck
+    constexpr long OFFSET_IN_FORWARD = 0x073e0b28;                   //[Buttons]->in_forward
+    constexpr long OFFSET_TRAVERSAL_START_TIME = 0x2ad0;             //[Buttons]->m_traversalStartTime
+    constexpr long OFFSET_TRAVERSAL_PROGRESS = 0x2acc;               //[Buttons]->m_traversalProgress
+    constexpr long OFFSET_WALL_RUN_START_TIME = 0x355c;              //[Buttons]->m_wallRunStartTime
+    constexpr long OOFFSET_WALL_RUN_CLEAR_TIME = 0x3560;              //[Buttons]->m_wallRunClearTime
         
     // Player
     constexpr long OFF_VIEW_MATRIX = 0x11a350;                    //[RecvTable.DT_Player]->ViewMatrix
