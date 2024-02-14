@@ -27,7 +27,7 @@ constexpr long OFFSET_GRAPPLEATTACHED = 0x0048;		      //
     constexpr long OFF_ZOOMING = 0x1bb1;                          //[RecvTable.DT_Player]->m_bZooming
     constexpr long OFF_LOCAL_ORIGIN = 0x017c;                     //[DataMap.CBaseViewModel]->m_vecAbsOrigin
     constexpr long OFF_ABSVELOCITY = 0x0170;                      //[DataMap.C_BaseEntity]->m_vecAbsVelocity
-    constexpr long OFF_TEAM_NUMBER = 0x030c;                      //[RecvTable.DT_BaseEntity]->m_iTeamNum
+    constexpr long OFF_TEAM_NUMBER = 0x0328;                      //[RecvTable.DT_BaseEntity]->m_iTeamNum
     constexpr long OFF_CURRENT_HEALTH = 0x0318;                   //[RecvTable.DT_BaseEntity]->m_iHealth
     constexpr long OFF_CURRENT_SHIELDS = 0x01a0;                  //[RecvTable.DT_BaseEntity]->m_shieldHealth
     constexpr long OFF_NAME = 0x0471;                             //[RecvTable.DT_BaseEntity]->m_iName
@@ -44,7 +44,7 @@ constexpr long OFFSET_GRAPPLEATTACHED = 0x0048;		      //
     constexpr long OFF_CAMERAORIGIN = 0x1eb0;                     //[Miscellaneous]->CPlayer!camera_origin
     constexpr long OFF_MODELNAME = 0x0030;                        //[DataMap.C_BaseEntity]->m_ModelName     
     constexpr long OFF_NAMELIST = 0xc5dacc0;                      //[Miscellaneous]->NameList
-    constexpr long OFF_YAW = 0x21fc - 0x8;                        //[DataMap.C_Player]=>m_currentFramePlayer.m_ammoPoolCount - 0x8
+    constexpr long OFF_YAW = 0x221c - 0x8;                        //[DataMap.C_Player]=>m_currentFramePlayer.m_ammoPoolCount - 0x8
     constexpr long OFF_NAMEINDEX = 0x0550;                        //[RecvTable.DT_BaseEntity]->m_instanceNameIndex
      
     // Weapon
@@ -52,7 +52,7 @@ constexpr long OFFSET_GRAPPLEATTACHED = 0x0048;		      //
     constexpr long OFF_WEAPON_INDEX = 0x1758;                     //[RecvTable.DT_WeaponX]->m_weaponNameIndex
     constexpr long OFFSET_AMMO = 0x1514;                      //[RecvTable.DT_PropSurvival]->m_ammoInClip
     constexpr long OFF_GRENADE_HANDLE = 0x1924;                   //[RecvTable.DT_Player]->m_latestNonOffhandWeapons
-    constexpr long OFF_SKIN = 0x0d18;                             //[RecvTable.DT_BaseAnimating]->m_nSkin
+    constexpr long OFF_SKIN = 0x0d38;                             //[RecvTable.DT_BaseAnimating]->m_nSkin
     constexpr long OFF_WEAPON_DISCARDED = 0x1579;                 //[RecvTable.DT_WeaponX]->m_discarded
     constexpr long OFFSET_TIME_BASE = 0x2068;                        //[RecvTable.DT_Player]->m_currentFramePlayer.timeBase
      
