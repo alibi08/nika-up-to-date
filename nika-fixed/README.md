@@ -23,22 +23,27 @@ sudo apt-get install libxtst-dev
 git clone https://github.com/alibi08/nika-up-to-date.git
 ```
 
-### 2. Get inside the folder
+### 2. Get inside the "nika-up-to-date" folder
 ```
 cd nika-up-to-date
 ```
 
-### 3. Compile the program:
+### 3. Get inside the "nika-fixed" folder
+```
+cd nika-fixed
+```
+
+### 4. Compile the program:
 ```
 make
 ```
 
-### 4. Open Apex
+### 5. Open Apex
 ```
 Open steam and start apex and wait for it to fully start
 ```
 
-### 5. Run the cheat
+### 6. Run the cheat
 ```
 sudo ./a.out in your linux terminal
 
